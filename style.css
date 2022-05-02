@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:column;
+
+    width: 500px;
+    margin: 15px;
+    height: 350px;
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    /* box-shadow: 5px 5px 8px#888888; */
+    animation: mymov 5s infinite;
+}
+
+@keyframes mymov {
+    50%{box-shadow: 0px 0px 0px 10px purple;}
+    
+}
+
